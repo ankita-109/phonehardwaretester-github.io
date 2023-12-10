@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(/images/filip-baotic-C30y56k2Tk0-unsplash\ \(1\).jpg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.image-sequence {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    height: 250px;
+    width: 350px;
+}
+.image {
+    width: 500px; /* Adjust the width and height as needed */
+    height: 300px;
+    /* background-color: #db3442; Change the background color as needed */
+    margin: 10px; /* Adjust the spacing between images */
+    transition: transform 0.3s ease-in-out;
+    background-size: cover; /* Add a smooth transition effect */
+}
+
+.image:hover {
+    transform: scale(1.1); /* Increase size on hover */
+}
+
+/* .image1 { background-image: url("/images/realme logo.png"); }
+.image2 { background-image: url("/images/redmi log.jpg");}
+.image3 { background-image: url("/images/sam logo.jpeg"); }
+.image4 { background-image: url("/images//vivo logo.png") ;} */
+/* Add more classes and colors for additional images */
+.image1 {    background-position:center ;}
+.image2 {    background-position:center ;}
+.image3 {    background-position:center ;}
+.image4 {    background-position:center ;}

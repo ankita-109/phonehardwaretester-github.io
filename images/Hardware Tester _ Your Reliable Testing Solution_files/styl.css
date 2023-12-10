@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  background-image: url('header-bg.jpg');
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 150px 0;
+}
+.hero-content1{
+ width: 200px;
+}
+
+.hero-content {
+  max-width: 100px;
+  margin:unset;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #f39c12;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e74c3c;
+}
+
+.features {
+  background-color: #f9f9f9;
+  padding: 100px 0;
+}
+
+.feature {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.feature-icon img {
+  width: 80px;
+  height: 80px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  margin-right: 10px;
+  display: inline;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Additional styling and responsiveness can be added as needed */
