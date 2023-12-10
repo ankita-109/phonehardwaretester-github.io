@@ -1,0 +1,41 @@
+.header{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:50px ;
+  background-color:rgb(162, 193, 202) ;
+}
+.header1{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: x-large;
+  background-color: aquamarine;
+}
+#filterTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 600px; /* Full-width */
+    height:600px;
+    border: 5px solid #ddd; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+    
+  }
+  
+  #filterTable th, #filterTable td {
+    text-align: left; /* Left-align text */
+    padding: 12px; /* Add padding */
+  }
+  
+  #filterTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 2px solid #ddd;
+  }
+  
+ 
+    /* Add a grey background color to the table header and on hover */
+   
+   
+  
+  
+  
+  .container {
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  
